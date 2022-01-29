@@ -1,11 +1,11 @@
 export const CONFIG = {
   tries: 6, // This changes how many tries you get to finish the wordle
-  language: 'YourLanguageHere', // This changes the display name for your language
+  language: 'nêyiyawêwin', // This changes the display name for your language
   wordLength: 5, // This sets how long each word is based on how many characters (as defined in orthography.ts) are in each word
-  author: 'YourNameHere', // Put your name here so people know who made this Wordle!
-  authorWebsite: 'YourLinkHere', // Put a link to your website or social media here
-  wordListSource: 'YourDictionarySource', // Describe the source material for your words here
-  wordListSourceLink: 'YourDictionaryLink', // Put a link to the source material for your words here
+  author: 'kiyânaw', // Put your name here so people know who made this Wordle!
+  authorWebsite: 'https://www.facebook.com/kiyanawapps', // Put a link to your website or social media here
+  wordListSource: 'Cree: Words', // Describe the source material for your words here
+  wordListSourceLink: 'https://uofrpress.ca/Books/C/Cree-Words', // Put a link to the source material for your words here
   //
   // THESE NEXT SETTINGS ARE FOR ADVANCED USERS
   //
