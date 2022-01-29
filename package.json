@@ -26,7 +26,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "echo 'wordle.kiyanaw.net' > ./build/CNAME && gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "fix": "prettier --write src",
     "lint": "prettier --check src",
     "build": "react-scripts build",
