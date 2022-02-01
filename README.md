@@ -1,5 +1,9 @@
 # Any-Language Wordle Clone
 
+## Nêhiyaw wordle changes
+
+To generate the word lists, run the file `./scripts/generate-word-list.sh`. The output file `./scripts/sources/five-letters` will have the new word list.
+
 ## Changes in this fork
 
 I've adapted this code to allow for simply adapting it to another language. The wordlist and orthography (writing system) here are for the Gitksan language, but this repository is meant to be adapted to other languages. I've also added a script for publishing on GitHub Pages.
@@ -38,6 +42,7 @@ I implemented Tailwind mostly because I wanted to learn how to use Tailwind CSS,
 
 _To Run Locally:_
 Clone the repository and perform the following command line actions:
+
 ```bash
 $ cd wordle
 $ npm install
@@ -45,9 +50,10 @@ $ npm run start
 ```
 
 _To build/run docker container:_
+
 ```bash
 $ docker build -t notwordle .
 $ docker run -d -p 3000:3000 notwordle
 ```
-open http://localhost:3000 in browser.
 
+open http://localhost:3000 in browser.
